@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Demo</title>
+        <script src="https://unpkg.com/htmx.org@1.9.2" integrity="sha384-L6OqL9pRWyyFU3+/bjdSri+iIphTN/bvYyM37tICVyOJkWZLpP2vGn6VUEXgzg6h" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <p>Hello World</p>
+        <button hx-get="/counter">Initial</button>
+        <div hx-get="/days" hx-trigger="revealed" hx-swap="outerHTML"></div>
+    </body>
+</html>

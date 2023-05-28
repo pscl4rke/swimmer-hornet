@@ -1,0 +1,5 @@
+
+Very quick and dirty code to demonstrate using the HTMX library.
+
+Dependencies: None. That's why it's full of ugly WSGI code.
+
